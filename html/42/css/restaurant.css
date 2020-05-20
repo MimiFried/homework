@@ -1,0 +1,24 @@
+html {
+    font-size: 16px;
+    background-color: RGB(230, 230, 250)
+}
+
+h1 {
+    text-align: center;
+    font-size: 4rem;
+    color: RGB(75, 0, 130)
+}
+
+h2{
+    font-size: 2rem;
+    color:RGB(0, 0, 139)
+}
+h3{
+    font-size: 44 px;
+    color:RGB(0, 0, 205)
+}
+
+p {
+    font-style: italic; 
+    color: RGB(25, 25, 112)
+}
