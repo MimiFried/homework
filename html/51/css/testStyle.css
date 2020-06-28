@@ -1,0 +1,114 @@
+body{
+    font-family: helvetica, arial, sans-serif;
+    margin: auto;
+    margin-bottom: 3em;
+}
+.navbar, .co{ 
+    background-color: black;
+}
+section{
+    padding-top: 60px;
+}
+div > h3, .pr{
+    text-align: center;
+}
+.co{ 
+    color: white;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.j{
+    text-align: justify;
+}
+.jumbotron{
+    text-align: center;
+    margin-bottom: 0;
+}
+.display-4{
+    padding-top: 40px;
+    text-transform: uppercase;
+}
+.lead{
+    font-style: italic;
+}
+.nav-link{
+    color: white;
+}
+.nav-link:hover{
+    text-decoration: underline; 
+    color: red; 
+}
+li{
+    list-style-type: none;
+} 
+input, button{
+    border-radius: 1mm;
+    filter: drop-shadow(0 0 1rem grey);
+}
+caption{
+    font-weight: bold;
+    caption-side: top;
+    font-size: 1em;
+    color: black;
+    text-align: center;
+}
+table{
+    width: 800px;
+    margin: auto;
+}
+#scrollTbl{
+    overflow-x: auto;
+}
+table, td, th{
+    border: 1px solid black;
+}
+th{
+    text-align: center;
+}
+td:first-child{
+    font-weight: bold;
+    text-align: center;
+ }
+ tf:first-child, td{
+    text-align: right !important;
+    }
+td:last-child{
+   color: red;
+}
+tbody tr:nth-child(2n){
+    background-color: #e9ecef;
+}
+tr:hover{
+    background-color: lightblue !important;
+  }
+.prod{
+    display: grid;
+    gap: 4px;
+    }
+
+@media screen and (max-width: 1000px){
+    label, .submit{
+        display: block;
+    }
+ .submit{
+     margin: auto;
+ }
+}
+@media screen and (min-width: 1000px){ 
+    .prod{
+    grid-template-columns: 1fr 1fr 1fr;
+    }
+    .pr{
+        padding: 1em;
+    }
+    .pr > img, .pr > video{
+        width: 100%;
+    }
+    .pr:nth-child(2){
+        grid-column: 2/3;
+        border-right: 2px solid black;
+        border-left: 2px solid black;
+    }
+}
+

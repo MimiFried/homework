@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ESTUFF</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link href="css/testStyle.css" rel="stylesheet" />
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg fixed-top ">
+        <div class="container">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="#products">Products</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#signUp">Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#Financials">Financials</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#AboutUs">About Us</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1 class="display-4">estuff</h1>
+            <p class="lead">A PCS company</p>
+        </div>
+        <article>
+            <section id="products">
+                <h3>Products</h3>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam aut accusamus officiis optio eaque
+                    pariatur labore impedit, dolorem, a voluptatum nemo sit sed, cupiditate minus consectetur. Quas
+                    architecto at facilis.</p>
+                <div class="prod">
+                    <div class="pr">
+                        <h3>Computers</h3>
+                        <img src="images/macworld.jpg" alt="computer pic">
+                        <p class="j">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid porro quos
+                            temporibus
+                            non doloremque qui dicta ad ex in nihil distinctio, nulla repudiandae ipsam soluta?</p>
+                    </div>
+                    <div class="pr">
+                        <h3>Choirs</h3>
+                        <video src="media/El Hanaar Hazeh.mp4" controls loop preload="none"
+                            poster="images/shira.png"></video>
+                        <p class="j">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus ab, cumque, ea
+                            nesciunt corrupti
+                            possimus dolor culpa voluptatum dolores rem, natus porro aperiam voluptatibus quod.</p>
+                    </div>
+                    <div class="pr">
+                        <h3>Candy</h3>
+                        <img src="images/candy.png" alt="candy">
+                        <p class="j">Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, odio velit!
+                            Placeat
+                            iusto libero
+                            perferendis rem amet, iste voluptate perspiciatis, maxime mollitia repudiandae eaque illo!
+                        </p>
+                    </div>
+                </div>
+            </section>
+            <section id="signUp">
+                <div class="jumbotron">
+                    <h3 id="signUp">Sign Me Up!</h3>
+                    <br>
+                    <div id="sb">
+                        <form method="post" action="processForm.php">
+
+                            <label for="name">Name:<input name="name" placeholder="Your Name" required /></label>
+                            <label for="email">Email:<input type="email" name="email" placeholder="Your Email"
+                                    required /></label>
+                            <button type="submit" class="submit">Sign Me Up!</button>
+                    </div>
+                </div>
+            </section>
+            <section id="Financials">
+                <h3>Financials</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Totam, incidunt amet unde distinctio enim
+                    error.</p>
+                <div id="scrollTbl">
+                    <table>
+                        <caption>Profits By Quarter</caption>
+                        <thead>
+                            <th>Year</th>
+                            <th>1st Quarter Profits</th>
+                            <th>2nd Quarter Profits</th>
+                            <th>3rd Quarter Profits</th>
+                            <th>4th Quarter Profits</th>
+                            <th>Total</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>2012</td>
+                                <td>$23467.67</td>
+                                <td>$3244.56</td>
+                                <td>$2345.78</td>
+                                <td>$7655.78</td>
+                                <td>$98766.45</td>
+                            </tr>
+                            <tr>
+                                <td>2013</td>
+                                <td>$3244.56</td>
+                                <td>$2345.78</td>
+                                <td>$23467.67</td>
+                                <td>$87145.78</td>
+                                <td>$87678.56</td>
+                            </tr>
+                            <tr>
+                                <td>2014</td>
+                                <td>$3244.56</td>
+                                <td>$2345.78</td>
+                                <td>$23467.67</td>
+                                <td>$2345.78</td>
+                                <td>$98686.78</td>
+                            </tr>
+                            <tr>
+                                <td>2015</td>
+                                <td>$3244.56</td>
+                                <td>$23467.67</td>
+
+                                <td>N/A</td>
+                                <td>N/A</td>
+                                <td>$86878.76</td>
+                            </tr>
+                        </tbody>
+                        <tfoot>
+                            <tr>
+                                <td colspan="5">Total</td>
+                                <td>$2097665.90</td>
+                            </tr>
+                        </tfoot>
+                    </table>
+                </div>
+            </section>
+            <section id="AboutUs">
+                <h3>About Us</h3>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo, ad alias. Eligendi ducimus
+                    repudiandae,
+                    magni necessitatibus similique ab iure repellat tenetur? Commodi assumenda ullam, perferendis
+                    laudantium
+                    repellat minus aut expedita accusantium repudiandae. Fugit animi in sint molestias id maxime aliquid
+                    accusantium quos beatae ipsum. Tenetur, reiciendis! Nisi, porro? Quasi eum ex totam libero
+                    consequuntur,
+                    earum quis laudantium fugiat itaque esse, eos, debitis magni soluta similique alias. Delectus
+                    recusandae
+                    commodi modi dolorem, hic saepe. Dolorum quisquam ad optio! Modi sit magnam veritatis officiis quasi
+                    quisquam itaque fugiat quo hic, quis architecto dolorem eum repellat sint, quae animi delectus.
+                    Neque
+                    laudantium, quisquam tempore fuga culpa, aliquid numquam unde eos sunt fugit possimus illum officiis
+                    libero similique ipsum adipisci. Cumque tempora praesentium numquam consectetur eaque perferendis
+                    dolorum odio odit ratione, delectus excepturi blanditiis fuga voluptatum possimus quasi illo
+                    officiis
+                    sunt nesciunt nam optio, unde, aut commodi perspiciatis repellendus. Doloremque obcaecati qui, rerum
+                    cumque earum repudiandae minus adipisci illum reiciendis sit excepturi a pariatur exercitationem
+                    quae
+                    ratione nesciunt fugiat facere, eligendi aliquid, dolor officia veritatis quaerat? Veritatis,
+                    accusantium consectetur nam necessitatibus tempore modi illum consequatur at voluptas architecto
+                    perspiciatis harum provident excepturi! Velit ratione eveniet rerum quia officia necessitatibus,
+                    sapiente reiciendis provident. Blanditiis fugiat illum minus labore itaque ex ab pariatur nam
+                    provident
+                    qui impedit, molestias sunt maiores in rem veniam explicabo magni laborum laboriosam exercitationem?
+                    Itaque ab quis accusantium magnam, debitis ullam reprehenderit ea optio, at adipisci deleniti
+                    mollitia
+                    iure labore repellendus sed ut voluptatum cum nulla rem delectus. Nihil, cumque unde! Repellat,
+                    incidunt! Nihil non facilis beatae eligendi nulla quam. Minus qui magni error aspernatur maiores!
+                    Doloribus harum iure eos officiis dolorem nostrum laudantium maxime architecto alias vel, repellat
+                    unde
+                    quod impedit commodi vitae nisi nesciunt perferendis in? Minus assumenda nostrum sapiente est
+                    pariatur
+                    exercitationem magni non. Optio porro quos culpa minus?</p>
+            </section>
+        </article>
+    </div>
+    <footer class="co">
+        <div class="container">&copy;PCS 2020 </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
