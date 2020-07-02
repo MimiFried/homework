@@ -1,0 +1,11 @@
+body{
+    padding: 3em 0;
+}
+caption {
+     caption-side:top;
+     font-size: larger; 
+    }
+    .table-hover tbody tr:hover th, .table-hover tbody tr:hover td, .table-hover tfoot tr:hover td,  .table-hover tfoot tr:hover th {
+        background-color: lightskyblue;
+    }
+   
