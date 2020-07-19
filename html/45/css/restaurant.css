@@ -20,12 +20,13 @@ body{
 header {
     text-align: center;
 }
+
 h1, h2 {
     text-align: center;
     font-size: 4rem;
     text-shadow: 6px 6px 6px whitesmoke;
     color: rgb(107, 36, 39);
-    text-transform: uppercase;  
+    text-transform: uppercase;
 }
 
 h2, h3{
@@ -49,6 +50,7 @@ a{
 a:hover{
     text-decoration: underline;
 }
+
 .menuItem img {
     margin-right: 1em;
     border: .5mm ridge rgb(107, 36, 39);
