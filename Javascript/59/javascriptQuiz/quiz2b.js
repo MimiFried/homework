@@ -9,10 +9,14 @@ window.app.countb = (function (countb) {
         mainCounter++;
         let counter = 0;
         return {
+            // SL - returning this allows anyone to change it, it should be private
+            // you didnt include this in quiz2a version, why add it here?
             counter: counter,
             getCount: () => console.log(counter),
 
             incrementCounter: function () {
+                // SL - if returning something from this function, wouldnt new count make more sense?
+                // your doing a postincrement so returned value is old value of counter before increment
                 return counter++;
             }
         };
