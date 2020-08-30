@@ -62,7 +62,7 @@
 
         row.addEventListener('click', function(){
             stopColors();
-            document.setCss(document.body, 'backgroundColor', color);
+            setCss(document.body, 'backgroundColor', color);
         });
     }
 
