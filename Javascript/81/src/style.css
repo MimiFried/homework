@@ -1,0 +1,17 @@
+.budget {
+    padding: 5px;
+    border: 1px solid, green;
+    color: green;
+    margin: 7px;
+}
+.expenses {
+    padding: 5px;
+    border: 1px solid, red;
+    color: red;
+    margin: 7px;
+}
+.side {
+    margin: 3px;
+    padding: 5px;
+    float: left;
+}

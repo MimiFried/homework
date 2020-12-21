@@ -1,5 +1,5 @@
 import $ from 'jquery';
-import './css/index.css'; 
+import './index.css'; 
 import apple from './images/redapple.png';
 
 (function (){
