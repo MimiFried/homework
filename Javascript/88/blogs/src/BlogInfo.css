@@ -1,0 +1,9 @@
+.blogElem {
+    margin: 15px;
+    display: inline-block;
+  }
+  
+  #name {
+    font-weight: bold;
+    color: darkblue;
+  }
