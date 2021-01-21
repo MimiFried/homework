@@ -1,0 +1,5 @@
+<select #categorySel (change)="categorySelected(categorySel.value)">
+    <option *ngFor="let category of categories;">
+        <app-category [category]="category"></app-category>
+    </option>
+</select>

@@ -1,0 +1,5 @@
+<h1>Select A Category</h1>
+
+<app-category-list [categories]="categoryList"></app-category-list>
+<hr>
+<app-item-list *ngIf="selectedCategory.items" [items]="selectedCategory.items"></app-item-list>
