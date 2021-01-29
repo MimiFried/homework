@@ -1,0 +1,5 @@
+<label>Please enter zip code</label><input #zipInput id='zip' (change)='getWeather(zipInput.value)'/>
+<hr>
+<ng-container *ngIf="weather">
+<app-weather [weather]="weather"></app-weather>
+</ng-container>
