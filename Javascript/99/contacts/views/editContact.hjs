@@ -1,0 +1,22 @@
+<form id="contactForm" method="POST">
+  <div>
+    <label for="firstName">first:</label>
+    <input id="firstName" name="firstName" {{#contact}}value="{{firstName}}"{{/contact}}>
+  </div>
+  <div>
+    <label for="lastName">last:</label>
+    <input id="lastName" name="lastName" required {{#contact}}value="{{lastName}}"{{/contact}}>
+  </div>
+  <div>
+    <label for="email">email:</label>
+    <input id="email" name="email" type="email"{{#contact}}value="{{email}}"{{/contact}}>
+  </div>
+  <div>
+    <label for="phone">phone:</label>
+    <input id="phone" name="phone"{{#contact}}value="{{phone}}"{{/contact}}>
+  </div>
+  <div class="buttons">
+    <button >update</button>
+    <a  href="/">cancel</a>
+  </div>
+</form>
