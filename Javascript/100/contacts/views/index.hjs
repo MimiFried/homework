@@ -1,0 +1,25 @@
+<table>
+  <thead>
+    <tr>
+      <th>First Name</th>
+      <th>Last Name</th>
+      <th>Email</th>
+      <th>Phone</th>
+      <th></th>
+    </tr>
+  </thead>
+<tbody>
+{{#contacts}}
+<tr>
+  <td>{{firstName}}</td>
+  <td>{{lastName}}</td>
+  <td>{{email}}</td>
+  <td>{{phone}}</td>
+  <td><a href="/editContact/{{id}}">edit</a>
+      <a href="/deleteContact/{{id}}">delete</a>
+  </td>
+</tr>
+{{/contacts}}
+</tbody>
+</table>
+<a class="btn" href="/addContact">add contact</a>
