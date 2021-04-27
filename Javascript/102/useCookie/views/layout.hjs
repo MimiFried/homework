@@ -1,0 +1,12 @@
+
+<!DOCTYPE html>
+<html>
+<body>
+    <form>
+      Name is: <input type="text" name="name" value="{{name}}"/>
+      <button>Submit</button>
+    </form>
+    {{>content}}
+  </body>
+
+</html>
